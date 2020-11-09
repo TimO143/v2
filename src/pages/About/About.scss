@@ -1,0 +1,38 @@
+@import '../../styles/media-queries';
+@import '../../styles/variables';
+@import '../../styles/global';
+
+.about-container{
+    @extend %container;
+    background-color:lightblue;
+}
+
+.about-wrapper{
+    @extend %wrapper;
+    max-height:70vh;
+  }
+
+.about-content{
+    @extend %content
+}
+
+.about-profiel{
+    border-radius:50%;
+
+    margin-left:10px;
+    margin-top: -50px;
+    @include tablet{
+        display:flex;
+        justify-content: center;
+        margin-left:0px;
+        margin-top: 0px;  
+        margin-bottom: 40px; 
+        width:35%;   
+    }
+    @include mobile{
+        
+    }
+}
+
+
+

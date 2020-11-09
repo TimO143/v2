@@ -1,0 +1,13 @@
+@import '../../styles/media-queries';
+@import '../../styles/variables';
+@import '../../styles/global';
+
+.featured-container{
+    @extend %container;
+    background-color:lightblue;
+}
+
+
+.featured-content{
+    @extend %content
+}

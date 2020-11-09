@@ -1,0 +1,37 @@
+@import '../../styles/media-queries';
+@import '../../styles/variables';
+@import '../../styles/global';
+
+.skills-container{
+  @extend %container;
+}
+
+.skills-wrapper{
+  @extend %wrapper;
+}
+
+.skills-content{
+  display:flex;
+  justify-content:space-between;
+  flex-direction: row;
+}
+
+.skills-content{
+  @extend %content
+}
+
+.skills-label{
+  font-weight:700;
+  color:black;
+  text-transform:uppercase;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  li{    
+    margin: 6px 0px;
+    font-size:0.9rem;
+  }
+}
+

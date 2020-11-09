@@ -1,0 +1,64 @@
+@import '../../styles/media-queries';
+@import '../../styles/variables';
+@import '../../styles/global';
+
+.hero-container {
+    background: url('../../assets/images/hero.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;   
+    justify-content:center;
+}
+
+.hero-title{
+    color:white;;
+    font-size: 4.5em;
+    font-weight: 700 ;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+.hero-subtitle{
+    color:white;;
+    font-size: 2.5em;
+}
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    span{
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+        &:nth-child(2){
+            animation-delay: -0.2s;
+        }
+        &:nth-child(3){
+            animation-delay: -0.4s;
+        }
+    }
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}

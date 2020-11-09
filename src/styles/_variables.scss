@@ -1,0 +1,29 @@
+$font-stack: 'Helvetica','sans-serif','arial';
+
+$blue: #00b7c7;
+
+%center-flex{
+    display:flex;
+    align-items:center;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font: 100% $font-stack
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
