@@ -28,11 +28,11 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link smooth to='#skills' className='nav-links' onClick={closeMobileMenu}>
               Skills
             </Link>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <Link smooth to='#projects' className='nav-links' onClick={closeMobileMenu}>
               Projects
