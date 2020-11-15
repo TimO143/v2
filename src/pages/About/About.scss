@@ -1,8 +1,12 @@
 @import '../../styles/media-queries';
 @import '../../styles/global';
 
+.about-section{
+    background-color: $bg2
+}
+
 .about-container{
-    @extend %container;
+    @extend %container;    
 }
 
 .about-wrapper{

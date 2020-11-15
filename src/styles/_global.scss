@@ -1,8 +1,10 @@
-$primary: #02769d;
-$secondary: #059acc;
+$primary: #03afff;
+$secondary: #0085c2;
 $tertiary: #ffa809;
-$quad: blue;
 $font-stack: 'Helvetica','sans-serif';
+$bg1: #f7f7f7;
+$bg2: #fff;
+$bgdark: black;
 
 
 %container{
@@ -11,7 +13,7 @@ $font-stack: 'Helvetica','sans-serif';
     flex-direction: column;
     margin-right:auto;
     margin-left:auto;
-    margin-bottom:20px;
+    margin-bottom:20px;    
     width:70%;
     margin-top:30px;
     @include tablet{

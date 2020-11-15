@@ -1,10 +1,13 @@
 @import '../../styles/media-queries';
 @import '../../styles/global';
 
+
+.project-section{
+  background-color:$bg1;
+}
 .project-container{
   @extend %container;  
 }
-
 
 .project-content{
   @extend %content
@@ -13,6 +16,6 @@
 .projects-grid{
   display:grid;
   gap:15px;
-  grid-template-columns: repeat(auto-fill,minmax(300px,1fr))
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
 }
 

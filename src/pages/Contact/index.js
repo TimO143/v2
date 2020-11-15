@@ -3,11 +3,14 @@ import './Contact.scss'
 
 function Contact(){
     return (
-        <section id='contact' className='contact-container'>           
-            <div className='contact-content'>
-                 <p>veel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaast</p>
-                 <p>veel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaast</p>
-            </div>            
+        <section id='contact' className='contact-section'> 
+        <div className="contact-container">
+            <div className='title'>
+                <p>Contact</p> 
+            </div>           
+            <div className='divider'></div>
+            <a className='btn btn-contact' href='mailto:timoosterlee1@live.nl'> Neem contact op</a>
+        </div>           
         </section>
     )
 }

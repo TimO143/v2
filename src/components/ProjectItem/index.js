@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProjectItem.scss';
+import image from '../../assets/images/hero.jpg'
 
 
 function ProjectItem(props) {
@@ -30,6 +31,32 @@ function ProjectItem(props) {
       </div>          
     </div>
   </div>
+
+  // <div className="project-card">
+  //   <img className='project-image' src={image} alt=""/>
+  //   <div className="project-overlay">
+  //     <div className="project-title">
+  //       {props.title}
+  //     </div>
+  //     <p className="project-info">
+  //       zet hier wat je hebt gebruikt
+  //     </p>
+  //     {/* <ul className="project-tech">
+  //      {props.tech.map((value,index) => {
+  //       return <li className='project-used' key={index}>{value}</li>        
+  //       })}
+  //     </ul> */}
+  //     {/* <div className="project-links">                
+  //           {props.demo !== '' &&
+  //           <a href={props.demo} target='_blank' rel='noreferrer' className="btn">Demo</a>               
+  //           }
+  //           {props.github !== '' &&
+  //           <a href={props.github} target='_blank' rel='noreferrer' className="btn">Code</a>
+  //           }
+  //       </div> */}
+  //       <btn className='btn'></btn>
+  //   </div>
+  // </div>
   
   );
 }

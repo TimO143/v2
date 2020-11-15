@@ -4,7 +4,8 @@ import ProjectItem from "../../components/ProjectItem"
 
 function Projects() {
   return (
-    <section id='projects' className='project-container'>
+    <section id='projects' className='project-section'>
+    <div className="project-container">
     <div className='title'>
         <p>Projects</p>  
     </div>
@@ -68,6 +69,7 @@ function Projects() {
             tech={['C#','Xamarin']}
             />
         </div>       
+    </div>
 
         </section>
   );

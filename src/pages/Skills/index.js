@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.scss';
-import CV from '../../assets/resume.pdf'
+
 
 
 function Skills() {
@@ -48,7 +48,6 @@ function Skills() {
         </div>  
       </div>      
     </div>
-    <a className='btn ' href={CV} rel='noreferrer' target='_blank'> CV</a>
     </section>  
 
   );
