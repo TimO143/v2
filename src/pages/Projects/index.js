@@ -30,23 +30,38 @@ function Projects() {
             <ProjectItem
             title='Keytoe Speurtocht'
             demo='https://speurtocht.keytoe.nl/'
-            github=''
+            github='https://github.com/TimO143/SpeurtochtKeytoe'
             info='Een quiz/speurtocht om nieuwe werknemers binnen Keytoe kennis 
             te laten maken met de mensen bij Keytoe.'
             tech={['React','Node.js','Express']}
             />
             <ProjectItem
+            title='Persoonlijke website v1'
+            demo='https://timo143.github.io/'
+            github='https://github.com/TimO143/TimO143.github.io'
+            info='Eerste poging voor een persoonlijke website.'
+            tech={['HTML','CSS','Bootstrap']}
+            />
+            <ProjectItem
+            title='Persoonlijke website v2'
+            demo=''
+            github='https://github.com/TimO143/v2'
+            info='Tweede poging voor een persoonlijke website. Ik wilde een website maken die 
+            makkelijker te onderhouden zou zijn, beter uit te breiden en met een betere UI/UX.'
+            tech={['React','HTML','CSS']}
+            />
+            <ProjectItem
             title='Chatbot over mijzelf'
             demo=''
-            github=''
+            github='https://github.com/TimO143/Chatbot-Tim'
             info='Eigen project om te ontdekken hoe je een simpele chatbot maakt 
             die over een onderwerp kan praten.'
             tech={['Python','JSON','NLTK','Tensorflow']}
             />
             <ProjectItem
             title='Machine vision voor toegangspoorten'
-            demo=''
-            github=''
+            demo='https://youtu.be/6nJgGxDRgcM'
+            github='https://github.com/TimO143/ProjectD-Label-A'
             info='Project voor het bedrijf Label A om te kijken of het mogelijk is 
             Machine Vision te gebruiken voor toegang te verlenen aan een evenement
              zonder tussenkomst van een medewerker.'
@@ -55,7 +70,7 @@ function Projects() {
             <ProjectItem
             title='MonKey Webshop - Online product keystore'
             demo='https://www.youtube.com/watch?v=_CcLFfsu86c&feature=youtu.be'
-            github=''
+            github='https://github.com/TimO143/MonKey-Webshop/tree/master/WebApplication1/WebApplication1'
             info='Een school project om een webshop te maken voor klanten met 
             volledige werking van het betaalproces, winkelen en beheer voor een administrator.'
             tech={['C#','.Net Core','Chart.js']}
