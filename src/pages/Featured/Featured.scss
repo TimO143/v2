@@ -1,13 +1,18 @@
 @import '../../styles/media-queries';
-@import '../../styles/variables';
 @import '../../styles/global';
 
 .featured-container{
     @extend %container;
-    background-color:lightblue;
+    
 }
-
 
 .featured-content{
     @extend %content
 }
+
+.projects-grid{
+    display:grid;
+    gap:15px;
+    margin-top:50px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr))
+  }

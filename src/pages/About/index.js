@@ -4,23 +4,19 @@ import profiel from './../../assets/images/profiel_foto.png'
 
 function About(){
     return (
-        <section id='about' className='about-container'> 
-                      
+        <section id='about' className='about-container'>                       
             <div className='title'>
-                <p>background</p>    
-                <hr className='divider'></hr>        
-            </div>
-        <div className='about-wrapper'> 
-            <img className='about-profiel' src={profiel}></img>
+                <p>background</p> 
+            </div>           
+            <div className='divider'></div>        
             <div className='about-content'>
-                 <p>veel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaast</p>
-                 <p>veel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaast</p>
-                  
-            </div>    
-                    
-        </div> 
-
-             
+                <p>Ik ben een vierde jaars Informatica student op de Hogeschool Rotterdam.
+                 Ik heb nog niet geen specifieke interesses, maar op dit moment zijn het A.I. en Web development.
+                </p>
+                <p>Ik houd er van om nieuwe dingen te leren en mijn 
+                    kennis te vergroten zodat ik een betere programmeur word.
+                </p>
+            </div>
         </section>
     )
 }

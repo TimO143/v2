@@ -6,7 +6,7 @@ import About from '../About'
 import Skills from '../Skills'
 import Projects from '../Projects'
 import Contact from '../Contact'
-import Featured from '../Featured'
+
 
 
 function Home() {
@@ -15,7 +15,6 @@ function Home() {
       <Hero/>
       <About/>
       <Skills/>
-      <Featured/>
       <Projects/>
       <Contact/>
     </>   

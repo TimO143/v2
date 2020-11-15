@@ -1,15 +1,15 @@
 import React from 'react';
 import './Skills.scss';
-
+import CV from '../../assets/resume.pdf'
 
 
 function Skills() {
   return (
     <section id='skills' className='skills-container'>
     <div className='title'>
-        <p>Skills</p>   
-        <hr className='divider'></hr>          
+        <p>Skills</p>           
     </div>
+    <div className='divider'></div>  
     <div className='skills-wrapper'>
       <div className='skills-content'>
         <div className='skills-categorie'>
@@ -48,6 +48,7 @@ function Skills() {
         </div>  
       </div>      
     </div>
+    <a className='btn ' href={CV} rel='noreferrer' target='_blank'> CV</a>
     </section>  
 
   );

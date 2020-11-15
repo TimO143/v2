@@ -7,13 +7,11 @@ function Featured(){
             <div className='title'>
                 <p>Featured projects</p>  
                 <hr className='divider'></hr>           
-            </div>
-            <div className='wrapper'>
-                <div className='featured-content'>
-                    <p>veel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaast</p>
-                    <p>veel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaastveel tekst hier ernaast</p>
-                </div> 
-            </div>           
+            </div>            
+            <div className='featured-content'>
+                <p>Misschien nog een showcase met image erbij voor 1 project.</p>
+            </div> 
+             
         </section>
     )
 }

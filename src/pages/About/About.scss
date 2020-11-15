@@ -1,36 +1,34 @@
 @import '../../styles/media-queries';
-@import '../../styles/variables';
 @import '../../styles/global';
 
 .about-container{
     @extend %container;
-    background-color:lightblue;
 }
 
 .about-wrapper{
     @extend %wrapper;
     max-height:70vh;
+    justify-content:space-between;
   }
 
 .about-content{
-    @extend %content
+    @extend %content;
+    margin-right:10px;
 }
 
 .about-profiel{
     border-radius:50%;
-
-    margin-left:10px;
     margin-top: -50px;
+    width:65%;
     @include tablet{
-        display:flex;
-        justify-content: center;
+        display:flex;        
         margin-left:0px;
         margin-top: 0px;  
         margin-bottom: 40px; 
-        width:35%;   
+        width:25%;   
     }
     @include mobile{
-        
+        width:15%;
     }
 }
 

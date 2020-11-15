@@ -1,9 +1,8 @@
 @import '../../styles/media-queries';
-@import '../../styles/variables';
 @import '../../styles/global';
 
 .project-container{
-  @extend %container;
+  @extend %container;  
 }
 
 
@@ -11,5 +10,9 @@
   @extend %content
 }
 
-
+.projects-grid{
+  display:grid;
+  gap:15px;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr))
+}
 

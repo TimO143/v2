@@ -1,20 +1,14 @@
-$font-stack: 'Helvetica','sans-serif','arial';
-
-$blue: #00b7c7;
-
-%center-flex{
-    display:flex;
-    align-items:center;
-}
+@import '../../styles/global';
 
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
+    border:0;
 }
 
 body{
-    font: 100% $font-stack
+    font: 100% $font-stack;
 }
 
 a{
@@ -26,4 +20,44 @@ ul {
     list-style: none;
 }
 
+.title{
+    width:100%;
+    text-transform:uppercase;
+    font-weight:600;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    p{
+        font-size:1.5em;
+        margin: 0;        
+    }    
+}
 
+.divider{
+    color:$tertiary;  
+    background-color:$tertiary;  
+    width:70px;
+    height:4px;
+    margin: 25px 0 50px 0;
+    //border: 0;
+    border-radius:10px;
+
+
+}
+
+.btn{
+    padding: 10px 15px;
+    background: 0 0;
+    border: 2px solid $tertiary;
+    border-radius: 3px;
+    margin: 0 5px;
+    color:$tertiary;
+    font-family: $font-stack;
+    font-weight:500;
+    text-transform:uppercase;
+    cursor:pointer;
+    &:hover , &:focus{
+        background: $tertiary;
+        color:white;        
+    }    
+}
