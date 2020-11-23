@@ -1,6 +1,5 @@
 import React from 'react'
 import './ProjectItem.scss';
-import image from '../../assets/images/hero.jpg'
 
 
 function ProjectItem(props) {
@@ -8,7 +7,7 @@ function ProjectItem(props) {
   <div className="project-animate">
     <div className="project-inner">          
         <div className="project-top">
-          <div className="project-icon"><i class="far fa-folder-open"></i></div>
+          <div className="project-icon"><i className="far fa-folder-open"></i></div>
           <div className="project-links">                
             {props.demo !== '' &&
             <a href={props.demo} target='_blank' rel='noreferrer' className="btn">Demo</a>               
@@ -32,6 +31,7 @@ function ProjectItem(props) {
     </div>
   </div>
 
+  // --- Mogelijk veranderen naar een card met image (nog mee aan het testen)---
   // <div className="project-card">
   //   <img className='project-image' src={image} alt=""/>
   //   <div className="project-overlay">

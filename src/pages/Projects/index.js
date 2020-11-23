@@ -48,7 +48,7 @@ function Projects() {
             github='https://github.com/TimO143/v2'
             info='Tweede poging voor een persoonlijke website. Ik wilde een website maken die 
             makkelijker te onderhouden zou zijn, beter uit te breiden en met een betere UI/UX.'
-            tech={['React','HTML','CSS']}
+            tech={['React','HTML','CSS / Sass']}
             />
             <ProjectItem
             title='Chatbot over mijzelf'

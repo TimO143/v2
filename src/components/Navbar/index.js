@@ -1,21 +1,16 @@
 import React, { useState} from 'react'
 import './Navbar.scss';
-// import { Link } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link';
 
-
-
-
-function Navbar() {
-  const [click, setClick] = useState(false);
-
+function Navbar({ sticky }) {
+  const [click, setClick] = useState(false);  
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   
   return (
     <>
-    <nav className="navbar">
-      <div className="navbar-container">
+    <nav className={sticky ?  "navbar navbar-sticky" : "navbar"}>
+      <div className={click ? "navbar-container navbar-black" : "navbar-container"}>
         <Link smooth to="#home" className="navbar-logo" onClick={closeMobileMenu}>
           Tim Oosterlee 
         </Link>       
@@ -27,12 +22,7 @@ function Navbar() {
             <Link smooth to='#about' className='nav-links' onClick={closeMobileMenu}>
               About
             </Link>
-          </li>
-          {/* <li className='nav-item'>
-            <Link smooth to='#skills' className='nav-links' onClick={closeMobileMenu}>
-              Skills
-            </Link>
-          </li> */}
+          </li>         
           <li className='nav-item'>
             <Link smooth to='#projects' className='nav-links' onClick={closeMobileMenu}>
               Projects
@@ -46,7 +36,6 @@ function Navbar() {
         </ul>              
       </div>
     </nav>
-
     </>
   );
 }

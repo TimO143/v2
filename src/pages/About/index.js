@@ -2,10 +2,10 @@ import React from 'react'
 import './About.scss'
 import CV from '../../assets/resume.pdf'
 
-function About(){
+function About({element}){
     return (
         <section id='about' className='about-section'> 
-        <div className="about-container">
+        <div ref={element}className="about-container">
             <div className='title'>
                 <p>about</p> 
             </div>           

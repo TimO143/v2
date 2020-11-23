@@ -1,21 +1,6 @@
 import React from 'react'
 import './Contact.scss'
 
-// function Contact(){
-//     return (
-//         <section id='contact' className='contact-section'> 
-//         <div className="contact-container">
-//             <div className='title'>
-//                 <p>Contact</p> 
-//             </div>           
-//             <div className='divider'></div>
-//             <a className='btn btn-contact' href='mailto:timoosterlee1@live.nl'> Neem contact op</a>
-            
-//         </div>           
-//         </section>
-//     )
-// }
-
 const Card = props => (
     <div className="card">
         {props.children}
@@ -24,7 +9,7 @@ const Card = props => (
   
   const Form = props => (
     <form className="form" 
-          OnSubmit={props.OnSubmit}
+          onSubmit={props.OnSubmit}
           action="https://formspree.io/f/mrgoazqv" 
           method="POST">
         {props.children}
@@ -97,7 +82,7 @@ const Card = props => (
           value: '',
           focus: false,
         },
-        status: "",
+        // isSubmitting en isError als je axios wilt gaan gebruiken
       }
     }
     
@@ -105,44 +90,29 @@ const Card = props => (
       const name = e.target.name;
       const state = Object.assign({}, this.state[name]);
       state.focus = true;
-      this.setState({ [name]: state },()=>{console.log(state)});
+      this.setState({ [name]: state });  // ,()=>{console.log(state)}
     }
     
     handleBlur(e) {
       const name = e.target.name;
       const state = Object.assign({}, this.state[name]);
       state.focus = false;
-      this.setState({ [name]: state },()=>{console.log(state)});
+      this.setState({ [name]: state });
     }
     
     handleChange(e) {
       const name = e.target.name;
       const state = Object.assign({}, this.state[name]);
       state.value = e.target.value;
-      this.setState({ [name]: state },()=>{console.log(state)});
+      this.setState({ [name]: state });
     }
 
     handleSubmit(e) {
       e.preventDefault();
-      const form = e.target;
-      const data = new FormData(form);
-      const xhr = new XMLHttpRequest();
-      xhr.open(form.method, form.action);
-      xhr.setRequestHeader("Accept", "application/json");
-      xhr.onreadystatechange = () => {
-        if (xhr.readyState !== XMLHttpRequest.DONE) return;
-        if (xhr.status === 200) {
-          form.reset();
-          this.setState({ status: "SUCCESS" });
-        } else {
-          this.setState({ status: "ERROR" });
-        }
-      };
-      xhr.send(data);
     }
     
     render() {
-      const {naam, email, bericht, status} = this.state;
+      const {naam, email, bericht} = this.state;
       return (
           <>        
         <section id='contact' className='contact-section'> 
@@ -151,7 +121,6 @@ const Card = props => (
                  <p>Contact</p> 
              </div>           
              <div className='divider'></div>
-             {/* <a className='btn btn-contact' href='mailto:timoosterlee1@live.nl'> Neem contact op</a> */}
             <div className="container">
           <Card>
             <h1>Stuur een bericht!</h1>
@@ -171,8 +140,7 @@ const Card = props => (
                 onFocus={this.handleFocus.bind(this)}
                 onBlur={this.handleBlur.bind(this)}
                 onChange={this.handleChange.bind(this)} />
-              {status === "SUCCESS" ? <p>Dank u!</p> : <Button onSubmit={this.handleSubmit.bind(this)}>Verzenden</Button>}
-              {status === "ERROR" && <p>Ooops! Er is iets mis gegaan.</p>}              
+              <Button onSubmit={this.handleSubmit.bind(this)}>Verzenden</Button>
             </Form>
           </Card>
             </div>

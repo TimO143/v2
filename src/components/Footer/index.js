@@ -5,7 +5,7 @@ import './Footer.scss';
 function Footer() {
   return (
     <div>   
-      <h1 className="test3">Footer</h1>
+      <h1>Footer</h1>
     </div>
       
   );

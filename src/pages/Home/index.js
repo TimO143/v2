@@ -3,15 +3,15 @@ import './Home.scss';
 
 import Hero from "../../components/Hero"
 import About from '../About'
-import Skills from '../Skills'
 import Projects from '../Projects'
 import Contact from '../Contact'
 
-function Home() {
+
+function Home({element}) {
   return (
     <>
       <Hero/>
-      <About/>
+      <About element={element}/>
       <Projects/>
       <Contact/>
     </>   

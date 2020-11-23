@@ -3,14 +3,15 @@ import { BrowserRouter as Router} from 'react-router-dom'
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home"
-import Footer from './components/Footer'
+
+import useSticky from "./hooks/useSticky.js"
 
 function App() {
+  const { isSticky, element } = useSticky()
   return (
     <Router>
-      <Navbar/>
-      <Home/>
-      {/* <Footer/>    */}
+      <Navbar sticky={isSticky}/>
+      <Home element={element}/>
     </Router>
   
 

@@ -23,130 +23,121 @@
     @extend %content;
     margin-right:10px;
 }
-
-// kan later weg
-.btn-contact{
-    margin-bottom:20px;
+.container {
+  display: flex;
+  //min-height: 100vh;
+  //align-items: center;
+  justify-content: center;
+  background-color:$contactdark;
+  width:99%;
 }
 
+.card {
+  width: 600px;
+  background-color:   $contactdark;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px rgba(  $contactdark,.06);
+  overflow: hidden;
+}
 
+h1 {
+  margin: 2rem 2rem 0;
+  font-size: 1.62rem;
+}
 
-// testing  
-  .container {
-    display: flex;
-    //min-height: 100vh;
-    //align-items: center;
-    justify-content: center;
-    background-color:$contactdark;
-    width:99%;
+.form {
+  padding: 2rem;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  border: 2px solid $tertiary;
+  border-radius: 3px;
+  padding: 1ch;
+  font-size: 1rem;
+  color:$tertiary;
+  font-family: inherit;
+  cursor:pointer;
+  &:hover , &:focus{
+      background: $tertiary;
+      color:white;        
+  }    
+}
+
+@mixin input {
+  display: block;
+  width: 100%;
+  border: 2px solid $tertiary;
+  padding: 1ch;
+  border-radius: 3px;
+  transition: 150ms ease;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: $contactdark;
+}
+
+@mixin input-focus {
+  border-color: $tertiary;
+  resize:vertical;
+  background-color: $contactdark;
+  color:white;
+}
+
+@mixin label {
+  position: absolute;
+  top: 1ch;
+  left: 1ch;
+  padding: 0 .5ch;
+  pointer-events: none;
+  transition: 150ms ease;
+  color: #888;    
+}
+
+@mixin label-focus {
+  position: absolute;
+  top: 0;
+  font-size: 0.9rem;
+  color: $tertiary;
+  font-weight: bold;
+  transform: translateY(-50%);
+  background-color: $contactdark;
+  font-weight: 600;
+}
+
+.text-input {
+  position: relative;
+  margin-bottom: 1rem;    
+  label {
+    @include label;
   }
-  
-  .card {
-    width: 600px;
-    background-color:   $contactdark;
-    border-radius: 3px;
-    box-shadow: 0 2px 10px rgba(  $contactdark,.06);
-    overflow: hidden;
+  label.label-focus {
+    @include label-focus;
   }
-  
-  h1 {
-    margin: 2rem 2rem 0;
-    font-size: 1.62rem;
+  input {
+    @include input;
   }
-  
-  .form {
-    padding: 2rem;
+  input.input-focus {
+    @include input-focus;
   }
-  
-  .button {
-    display: block;
-    width: 100%;
-    border: 2px solid $tertiary;
-    border-radius: 3px;
-    padding: 1ch;
-    font-size: 1rem;
-    color:$tertiary;
-    font-family: inherit;
-    cursor:pointer;
-    &:hover , &:focus{
-        background: $tertiary;
-        color:white;        
-    }    
+}  
+
+.text-area {
+  position: relative;
+  margin-bottom: 1rem;
+  label {
+    @include label;
   }
-  
-  @mixin input {
-    display: block;
-    width: 100%;
-    border: 2px solid $tertiary;
-    padding: 1ch;
-    border-radius: 3px;
-    transition: 150ms ease;
-    outline: none;
-    font-size: 1rem;
-    font-family: inherit;
-    background-color: $contactdark;
+  label.label-focus {
+    @include label-focus;
   }
-  
-  @mixin input-focus {
-    border-color: $tertiary;
+  textarea {
+    @include input;
+    height: 8em;
     resize:vertical;
-    background-color: $contactdark;
-    color:white;
   }
-  
-  @mixin label {
-    position: absolute;
-    top: 1ch;
-    left: 1ch;
-    padding: 0 .5ch;
-    pointer-events: none;
-    transition: 150ms ease;
-    color: #888;    
+  textarea.input-focus {
+    @include input-focus;
   }
-  
-  @mixin label-focus {
-    position: absolute;
-    top: 0;
-    font-size: 0.9em;
-    color: $tertiary;
-    font-weight: bold;
-    transform: translateY(-50%);
-    background-color: $contactdark;
-    font-weight: 600;
-  }
-  
-  .text-input {
-    position: relative;
-    margin-bottom: 1rem;    
-    label {
-      @include label;
-    }
-    label.label-focus {
-      @include label-focus;
-    }
-    input {
-      @include input;
-    }
-    input.input-focus {
-      @include input-focus;
-    }
-  }  
-
-  .text-area {
-    position: relative;
-    margin-bottom: 1rem;
-    label {
-      @include label;
-    }
-    label.label-focus {
-      @include label-focus;
-    }
-    textarea {
-      @include input;
-      height: 8em;
-      resize:vertical;
-    }
-    textarea.input-focus {
-      @include input-focus;
-    }
-  }
+}
