@@ -7,7 +7,7 @@ function About(){
         <section id='about' className='about-section'> 
         <div className="about-container">
             <div className='title'>
-                <p>background</p> 
+                <p>about</p> 
             </div>           
             <div className='divider'></div>        
             <div className='about-content'>

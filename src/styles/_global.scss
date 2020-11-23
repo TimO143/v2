@@ -1,10 +1,12 @@
 $primary: #03afff;
 $secondary: #0085c2;
 $tertiary: #ffa809;
-$font-stack: 'Helvetica','sans-serif';
+$font-stack: Montserrat,'Helvetica','sans-serif';
 $bg1: #f7f7f7;
 $bg2: #fff;
 $bgdark: black;
+$contactdark: #252934;
+$text-color: #444;
 
 
 %container{
@@ -16,33 +18,22 @@ $bgdark: black;
     margin-bottom:20px;    
     width:70%;
     margin-top:30px;
-    @include tablet{
+    @include tablet-up{
         width:80%;
     }
-    @include mobile{
+    @include for-phone-only{
         width:90%;
     }
-
-    // display:flex;
-    // justify-content:center; 
-    // padding: 100px 170px;
-    // flex-direction: column;
-    // @include tablet{
-    //     padding: 50px 25px;
-    // }
-    // @include mobile{
-        
-    // }
 }
 
 %wrapper{
     display:flex;
     flex-direction:row-reverse;
     justify-content: left;
-    @include tablet{
+    @include tablet-up{
       flex-direction:column;        
     }
-    @include mobile{
+    @include for-phone-only{
   
     }
 }

@@ -7,9 +7,11 @@
     border:0;
 }
 
-body{
-    font: 100% $font-stack;
-}
+body {
+    font-family: Montserrat, sans-serif;
+    color: $text-color;
+    background-color: #f8f8f8;
+  }
 
 a{
     text-decoration:none;
