@@ -83,6 +83,15 @@ function Projects() {
             informatie te geven over verschillende landen op de wereld.'
             tech={['C#','Xamarin']}
             />
+            <ProjectItem
+            title='Afstudeerstage Kruispunt simulatie'
+            demo='https://youtu.be/ZazmSJ0nz8c'
+            github=''
+            info="Het doel van het afstudeerproject was om een prototype te maken van een 
+            kruispunt in een simulatie met real-time data van objecten zoals auto's, verkeerslichten 
+            en personen."
+            tech={['C#','Blender',"Angular","Unity","Computer Vision","WebGL"]}
+            />
         </div>       
     </div>
 
