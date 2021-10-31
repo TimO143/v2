@@ -12,7 +12,7 @@ function About({element}){
             <div className='divider'></div>        
             <div className='about-content'>
                 <p>Ik ben afgestudeerd voor HBO informatica op de Hogeschool Rotterdam.
-                 Op dit moment zijn mijn interesses Unity/3D visualisaties en Web development.
+                 Op dit moment zijn mijn interesses Unity/3D visualisaties en .Net.
                 </p>
                 <p>Ik houd er van om nieuwe dingen te leren en mijn 
                     kennis te vergroten zodat ik een betere programmeur word.

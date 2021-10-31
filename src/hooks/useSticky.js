@@ -4,13 +4,14 @@ function useSticky() {
   const [isSticky, setSticky] = useState(false)
   const element = useRef(null)
 
-  const handleScroll = () => {
-    window.scrollY > element.current.getBoundingClientRect().top
-      ? setSticky(true)
-      : setSticky(false)
-  }
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY > element.current.getBoundingClientRect().top
+        ? setSticky(true)
+        : setSticky(false)
+    }
 
-   // This function handles the scroll performance issue
+       // This function handles the scroll performance issue
    const debounce = (func, wait = 20, immediate = true) => {
     let timeOut
     return () => {
@@ -27,12 +28,11 @@ function useSticky() {
     }
   }
 
-  useEffect(() => {
     window.addEventListener("scroll", debounce(handleScroll))
     return () => {
       window.removeEventListener("scroll", () => handleScroll)
     }
-  }, [debounce, handleScroll])
+  }, [])
 
   return { isSticky, element }
 }
