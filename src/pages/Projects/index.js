@@ -102,6 +102,15 @@ function Projects() {
             en personen."
             tech={['C#','Blender',"Angular","Unity","Computer Vision","WebGL"]}
             />
+            <ProjectItem
+            title='Donut Blender3D'
+            demoId='DlwisD4siYM'
+            isVideo={true}
+            github=''
+            info="Eerste Blender 3D project. Geleerd om Blender interface te gebruiken voor sculpting, animatie en 3D mesh te maken/bewerken"
+            tech={['Blender']}
+            />
+            
         </div>       
     </div>
 
