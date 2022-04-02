@@ -29,6 +29,11 @@ function Navbar({ sticky }) {
             </Link>
           </li>
           <li className='nav-item'>
+            <Link smooth to='#art-projects' className='nav-links' onClick={closeMobileMenu}>
+              Blender3D
+            </Link>
+          </li>
+          <li className='nav-item'>
             <Link smooth to='#contact' className='nav-links' onClick={closeMobileMenu}>
               Contact
             </Link>

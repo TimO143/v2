@@ -7,7 +7,7 @@ function ArtProjects() {
     <section id='art-projects' className='art-project-section'>
     <div className="art-project-container">
     <div className='title'>
-        <p>Animation Projects</p>  
+        <p>Blender3D Animation Projects</p>  
     </div>
     <div className='divider'></div>  
     <div className="art-projects-grid">  
