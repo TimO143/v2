@@ -1,0 +1,23 @@
+@import '../../styles/media-queries';
+@import '../../styles/global';
+
+
+.art-project-section{
+  background-color:$bg1;
+}
+.art-project-container{
+  @extend %container;  
+  margin-bottom:0px;
+}
+
+.art-project-content{
+  @extend %content
+}
+
+.art-projects-grid{
+  display:grid;
+  gap:15px;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  margin-bottom:20px;
+}
+
