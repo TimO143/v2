@@ -76,7 +76,7 @@ function ArtProjects() {
             />
             <ArtProjectItem
             title='Bubbles Geometry Nodes'
-            demoId='Q9EfGpJDatA '
+            demoId='Q9EfGpJDatA'
             isVideo={true}           
             info="Andere versie van Geometry Nodes om bubbles te maken die bewegen langs een curve."
             tech={['Blender']}
