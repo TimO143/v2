@@ -67,6 +67,22 @@ function ArtProjects() {
             info="8ste animatie project in Blender. Eigen inspiratie en creativiteit om een animatie te maken met de thema's Verjaardag, Star Wars en Lego."
             tech={['Blender']}
             />
+            <ArtProjectItem
+            title='Highlighted Bubbles Geometry Nodes'
+            demoId='vA8Z2e1GaWU'
+            isVideo={true}           
+            info="9de animatie project in Blender. Geometry Nodes om bubbles te maken die bewegen langs een curve."
+            tech={['Blender']}
+            />
+            <ArtProjectItem
+            title='Bubbles Geometry Nodes'
+            demoId='Q9EfGpJDatA '
+            isVideo={true}           
+            info="Andere versie van Geometry Nodes om bubbles te maken die bewegen langs een curve."
+            tech={['Blender']}
+            />
+            
+
             
         </div>       
     </div>
