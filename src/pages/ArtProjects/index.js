@@ -81,6 +81,13 @@ function ArtProjects() {
             info="Andere versie van Geometry Nodes om bubbles te maken die bewegen langs een curve."
             tech={['Blender']}
             />
+            <ArtProjectItem
+            title='House Construction Animation'
+            demoId='Md2P_4AM1OU'
+            isVideo={true}           
+            info="10de animatie project in Blender. Huis model van CGTrader, Gebruik gemaakt van particle systeem om gras te maken samen met weight paint en particle edit. Animation node add-on voor de animatie."
+            tech={['Blender']}
+            />
             
 
             
