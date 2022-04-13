@@ -1,6 +1,10 @@
 import React from 'react';
 import './ArtProjects.scss';
 import ArtProjectItem from "../../components/ArtProjectItem"
+import ImageArtProjectItem from "../../components/ImageArtProjectItem"
+
+// images
+import chessboard from '../../assets/images/RenderedChessBoard.png';
 
 function ArtProjects() {
   return (
@@ -87,11 +91,22 @@ function ArtProjects() {
             isVideo={true}           
             info="10de animatie project in Blender. Huis model van CGTrader, Gebruik gemaakt van particle systeem om gras te maken samen met weight paint en particle edit. Animation node add-on voor de animatie."
             tech={['Blender']}
+            />   
+        </div>  
+        <div className='title'>
+        <p>Blender3D Image Projects</p>  
+        </div>
+        <div className='divider'></div>  
+    <div className="art-projects-grid">  
+            <ImageArtProjectItem
+            title='Chessboard'
+            imagepath={chessboard}
+            alt="Chessboard"
+            info="Modellen zelf gemaakt met behulp van referentie fotos. Geleerd hoe je door loop cuts, extrude, scale en rotate modellen kan maken, compositie en licht en metaball voor wolken.  "
+            tech={['Blender']}
             />
-            
+        </div>    
 
-            
-        </div>       
     </div>
 
         </section>

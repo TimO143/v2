@@ -10,7 +10,7 @@ class ArtProjectItem extends React.Component {
   <div className="artproject-animate">
     <div className="artproject-inner">          
         <div className="artproject-top">
-          <div className="artproject-icon"><i className="far fa-folder-open"></i></div>
+          <div className="artproject-icon"><i className="fa-solid fa-heart fa-beat"></i></div>
           <div className="artproject-links">  
             {(this.props.demoId !== '' && this.props.isVideo)             
              ? 
