@@ -5,7 +5,7 @@ import ImageArtProjectItem from "../../components/ImageArtProjectItem"
 
 // images
 import chessboard from '../../assets/images/RenderedChessBoard.png';
-
+import bedroom from '../../assets/images/Bedroom.png'
 function ArtProjects() {
   return (
     <section id='art-projects' className='art-project-section'>
@@ -103,6 +103,13 @@ function ArtProjects() {
             imagepath={chessboard}
             alt="Chessboard"
             info="Modellen zelf gemaakt met behulp van referentie fotos. Geleerd hoe je door loop cuts, extrude, scale en rotate modellen kan maken, compositie en licht en metaball voor wolken.  "
+            tech={['Blender']}
+            />
+            <ImageArtProjectItem
+            title='Bedroom'
+            imagepath={bedroom}
+            alt="Bedroom"
+            info="Cloth simulation, Bump maps, displacement, roughness textures, ambient occlusion, normal maps, Sculpting, Hair particles, irradiance volume, Principled volume world texture, modelling carpet/bed/cushions. Changing materials with Shader editor. "
             tech={['Blender']}
             />
         </div>    

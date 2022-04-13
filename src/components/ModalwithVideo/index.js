@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { Component } from 'react';
 import './ModalwithVideo.scss';
 import ModalVideo from 'react-modal-video'
 
