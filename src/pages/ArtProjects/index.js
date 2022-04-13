@@ -5,7 +5,9 @@ import ImageArtProjectItem from "../../components/ImageArtProjectItem"
 
 // images
 import chessboard from '../../assets/images/RenderedChessBoard.png';
-import bedroom from '../../assets/images/Bedroom.png'
+import bedroomEvee from '../../assets/images/BedroomEvee.png'
+import bedroomCycles from '../../assets/images/BedroomCycles.png'
+
 function ArtProjects() {
   return (
     <section id='art-projects' className='art-project-section'>
@@ -106,8 +108,15 @@ function ArtProjects() {
             tech={['Blender']}
             />
             <ImageArtProjectItem
-            title='Bedroom'
-            imagepath={bedroom}
+            title='Bedroom Evee'
+            imagepath={bedroomEvee}
+            alt="Bedroom"
+            info="Cloth simulation, Bump maps, displacement, roughness textures, ambient occlusion, normal maps, Sculpting, Hair particles, irradiance volume, Principled volume world texture, modelling carpet/bed/cushions. Changing materials with Shader editor. "
+            tech={['Blender']}
+            />
+            <ImageArtProjectItem
+            title='Bedroom Cycles'
+            imagepath={bedroomCycles}
             alt="Bedroom"
             info="Cloth simulation, Bump maps, displacement, roughness textures, ambient occlusion, normal maps, Sculpting, Hair particles, irradiance volume, Principled volume world texture, modelling carpet/bed/cushions. Changing materials with Shader editor. "
             tech={['Blender']}
