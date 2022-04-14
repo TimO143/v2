@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/v2/static/css/main.74a5c583.chunk.css",
-    "main.js": "/v2/static/js/main.ff2dd5a7.chunk.js",
-    "main.js.map": "/v2/static/js/main.ff2dd5a7.chunk.js.map",
+    "main.js": "/v2/static/js/main.cbb98b76.chunk.js",
+    "main.js.map": "/v2/static/js/main.cbb98b76.chunk.js.map",
     "runtime-main.js": "/v2/static/js/runtime-main.c6bf9e2e.js",
     "runtime-main.js.map": "/v2/static/js/runtime-main.c6bf9e2e.js.map",
     "static/js/2.fbcd717c.chunk.js": "/v2/static/js/2.fbcd717c.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/v2/index.html",
     "static/css/main.74a5c583.chunk.css.map": "/v2/static/css/main.74a5c583.chunk.css.map",
     "static/js/2.fbcd717c.chunk.js.LICENSE.txt": "/v2/static/js/2.fbcd717c.chunk.js.LICENSE.txt",
-    "static/media/BedroomCycles.bc1c252d.png": "/v2/static/media/BedroomCycles.bc1c252d.png",
+    "static/media/BedroomCycles.1f5065a3.png": "/v2/static/media/BedroomCycles.1f5065a3.png",
     "static/media/BedroomEvee.c26ee7a4.png": "/v2/static/media/BedroomEvee.c26ee7a4.png",
     "static/media/RenderedChessBoard.aa1fe609.png": "/v2/static/media/RenderedChessBoard.aa1fe609.png",
     "static/media/Hero.scss": "/v2/static/media/hero.955b1148.jpg",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.c6bf9e2e.js",
     "static/js/2.fbcd717c.chunk.js",
     "static/css/main.74a5c583.chunk.css",
-    "static/js/main.ff2dd5a7.chunk.js"
+    "static/js/main.cbb98b76.chunk.js"
   ]
 }
