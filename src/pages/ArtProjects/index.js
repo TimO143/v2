@@ -4,9 +4,9 @@ import ArtProjectItem from "../../components/ArtProjectItem"
 import ImageArtProjectItem from "../../components/ImageArtProjectItem"
 
 // images
-import chessboard from '../../assets/images/RenderedChessBoard.png';
-import bedroomEvee from '../../assets/images/BedroomEvee.png'
-import bedroomCycles from '../../assets/images/BedroomCycles.png'
+import chessboard from '../../assets/images/RenderedChessBoard.jpg';
+import bedroomEvee from '../../assets/images/BedroomEvee.jpg'
+import bedroomCycles from '../../assets/images/BedroomCycles.jpg'
 
 function ArtProjects() {
   return (
