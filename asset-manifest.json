@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.8c92cbff.css",
+    "main.css": "/v2/static/css/main.3b94cca2.css",
     "main.js": "/v2/static/js/main.4e07e55c.js",
     "static/media/BedroomEvee.jpg": "/v2/static/media/BedroomEvee.13e5cee6102874057e03.jpg",
     "static/media/BedroomCycles.jpg": "/v2/static/media/BedroomCycles.d05387171cba4b052014.jpg",
@@ -8,11 +8,11 @@
     "static/media/RenderedChessBoard.jpg": "/v2/static/media/RenderedChessBoard.f4b4b28df7ae0be2a118.jpg",
     "static/media/resume.pdf": "/v2/static/media/resume.b7af337989d51fac93ce.pdf",
     "index.html": "/v2/index.html",
-    "main.8c92cbff.css.map": "/v2/static/css/main.8c92cbff.css.map",
+    "main.3b94cca2.css.map": "/v2/static/css/main.3b94cca2.css.map",
     "main.4e07e55c.js.map": "/v2/static/js/main.4e07e55c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c92cbff.css",
+    "static/css/main.3b94cca2.css",
     "static/js/main.4e07e55c.js"
   ]
 }
