@@ -25,7 +25,7 @@ class ModalwithVideo extends Component {
         isOpen={this.state.isOpen} 
         videoId={this.props.videolink} 
         onClose={() => this.setState({isOpen: false})} />
-        <button onClick={this.openModal} className="btn">Demo</button>
+        <button className="btn" onClick={this.openModal} >Demo</button>
       </div>
     )
   }

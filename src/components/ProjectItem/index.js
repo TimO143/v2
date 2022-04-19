@@ -17,7 +17,7 @@ class ProjectItem extends React.Component {
              ? 
              <ModalwithVideo videolink={this.props.demoId}></ModalwithVideo>
              : (!this.props.isVideo
-              ? <a href={this.props.demoId} target='_blank' rel='noreferrer' className="btn">Demo</a>
+              ? <a href={this.props.demoId} target='_blank' rel='noreferrer' className="btn">Live</a>
               : null              
               )                         
             }
