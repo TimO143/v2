@@ -8,8 +8,9 @@ class ImageArtProjectItem extends React.Component {
   render(){
   return (
   <div className="image-artproject-animate">
-    <div className="image-artproject-inner">          
-        <div className="image-artproject-top">
+    <div className="image-artproject-inner">    
+    <header>
+    <div className="image-artproject-top">
           <div className="image-artproject-icon"><i className="fa-solid fa-images"></i></div>         
         </div>
         <h3 className="image-artproject-title">{this.props.title}</h3>
@@ -23,13 +24,14 @@ class ImageArtProjectItem extends React.Component {
           <br></br>
           <p>{this.props.info}</p>
         </div>
-      <div>
+    </header>  
+    <footer>
       <ul className="image-artproject-tech">
       {this.props.tech.map((value,index) => {
         return <li className='image-artproject-used' key={index}>{value}</li>        
         })}
       </ul>
-      </div>          
+    </footer>          
     </div>
   </div>
   );

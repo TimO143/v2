@@ -8,7 +8,8 @@ class ProjectItem extends React.Component {
   render(){
   return (
   <div className="project-animate">
-    <div className="project-inner">          
+    <div className="project-inner">   
+    <header>     
         <div className="project-top">
           <div className="project-icon"><i className="far fa-folder-open"></i></div>
           <div className="project-links">  
@@ -29,13 +30,14 @@ class ProjectItem extends React.Component {
         <div className="project-sub">
           <p>{this.props.info}</p>
         </div>
-      <div>
-      <ul className="project-tech">
-      {this.props.tech.map((value,index) => {
-        return <li className='project-used' key={index}>{value}</li>        
-        })}
-      </ul>
-      </div>          
+      </header>  
+      <footer>
+        <ul className="project-tech">
+        {this.props.tech.map((value,index) => {
+          return <li className='project-used' key={index}>{value}</li>        
+          })}
+        </ul>
+      </footer>          
     </div>
   </div>
   );
