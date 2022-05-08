@@ -95,6 +95,15 @@ function ArtProjects() {
             info="10de animatie project in Blender. Huis model van CGTrader, Gebruik gemaakt van particle systeem om gras te maken samen met weight paint en particle edit. Animation node add-on voor de animatie."
             tech={['Blender']}
             />   
+            <ArtProjectItem
+            title='Glow in the Dark Hockey Domino'
+            demoId='5T6iHlx3SYA'
+            isVideo={true}           
+            info="11de animatie project in Blender. Rigid Body, multiple cameras, Object instancing met curve modifier, Key frame animating "
+            tech={['Blender']}
+            />   
+
+
         </div>  
         <div className='title'>
         <p>Blender3D Image Projects</p>  
