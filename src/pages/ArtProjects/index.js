@@ -97,7 +97,7 @@ function ArtProjects() {
             />   
             <ArtProjectItem
             title='Glow in the Dark Hockey Domino'
-            demoId='_S9fKd1GLpY'
+            demoId='yeLndtxuTNs'
             isVideo={true}           
             info="11de animatie project in Blender. Rigid Body, multiple cameras, Object instancing met curve modifier, Key frame animating "
             tech={['Blender']}
