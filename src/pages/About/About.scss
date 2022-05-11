@@ -19,6 +19,15 @@
 .about-content{
     @extend %content;
     margin-right:10px;
+    display:flex;
+    p{
+        width:350px;
+        @include for-phone-only{
+            width:auto;
+        }
+    }
+
+
 }
 
 .about-profiel{
@@ -34,6 +43,15 @@
     }
     @include for-phone-only{
         width:15%;
+    }
+}
+
+.gif-rubiks{
+    color: white;
+    position: relative;
+    margin-top:-5em;
+    @include for-phone-only{
+        display:none;
     }
 }
 
