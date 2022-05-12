@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.279a753e.css",
+    "main.css": "/v2/static/css/main.27de43ed.css",
     "main.js": "/v2/static/js/main.f0848859.js",
     "static/media/RubiksCube.gif": "/v2/static/media/RubiksCube.9f90221c2039e6526c38.gif",
     "static/media/BedroomEvee.jpg": "/v2/static/media/BedroomEvee.13e5cee6102874057e03.jpg",
@@ -10,11 +10,11 @@
     "static/media/RenderedChessBoard.jpg": "/v2/static/media/RenderedChessBoard.f4b4b28df7ae0be2a118.jpg",
     "static/media/resume.pdf": "/v2/static/media/resume.b2f40943fdbfdaa4be9c.pdf",
     "index.html": "/v2/index.html",
-    "main.279a753e.css.map": "/v2/static/css/main.279a753e.css.map",
+    "main.27de43ed.css.map": "/v2/static/css/main.27de43ed.css.map",
     "main.f0848859.js.map": "/v2/static/js/main.f0848859.js.map"
   },
   "entrypoints": [
-    "static/css/main.279a753e.css",
+    "static/css/main.27de43ed.css",
     "static/js/main.f0848859.js"
   ]
 }
