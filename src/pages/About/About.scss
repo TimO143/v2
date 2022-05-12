@@ -20,6 +20,7 @@
     @extend %content;
     margin-right:10px;
     display:flex;
+    align-items:center;
     p{
         width:350px;
         @include for-phone-only{
@@ -47,11 +48,13 @@
 }
 
 .gif-rubiks{
-    color: white;
     position: relative;
-    margin-top:-5em;
+    width:125%;
     @include for-phone-only{
         display:none;
+    }
+    @include for-phone-only-landscape{
+        width:100%;
     }
 }
 
