@@ -102,6 +102,13 @@ function ArtProjects() {
             info="11de animatie project in Blender. Rigid Body, multiple cameras, Object instancing met curve modifier, Key frame animating "
             tech={['Blender']}
             />   
+            <ArtProjectItem
+            title='Rubiks Cube'
+            demoId='7s23lYfzQgE'
+            isVideo={true}           
+            info="12de animatie project in Blender. Modelling and animating. "
+            tech={['Blender']}
+            />   
 
 
         </div>  
