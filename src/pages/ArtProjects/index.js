@@ -109,6 +109,13 @@ function ArtProjects() {
             info="12de animatie project in Blender. Modelling and animating. "
             tech={['Blender']}
             />   
+            <ArtProjectItem
+            title='Stormy Ocean'
+            demoId='avu2D5U-2Bo'
+            isVideo={true}           
+            info="13de animatie project in Blender. Grease Pencil Drivers voor animatie gebaseerd op frames, Shrinkwrap modifier, Ocean modifier, vertex groups, Copy location constraint, Graph editor, particle system, Render slots, quick favourites workflow. "
+            tech={['Blender']}
+            />   
 
 
         </div>  
