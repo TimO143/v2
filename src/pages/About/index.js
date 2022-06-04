@@ -18,7 +18,7 @@ function About({element}){
                     Op dit moment zijn mijn interesses Unity/3D visualisaties, .Net en Blender3D modellen/animaties maken.
                     </p>
                     <p>Ik houd er van om nieuwe dingen te leren en mijn 
-                        kennis te vergroten zodat ik een betere programmeur word.
+                        kennis te vergroten zodat ik een betere software engineer word.
                     </p>
                 </div>                
                 <div>
