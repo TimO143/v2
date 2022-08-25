@@ -97,4 +97,11 @@ export const artProjectData = [
     info:"13de animatie project in Blender. Grease Pencil Drivers voor animatie gebaseerd op frames, Shrinkwrap modifier, Ocean modifier, vertex groups, Copy location constraint, Graph editor, particle system, Render slots, quick favourites workflow. ",
     tech:['Blender']
 },
+{
+    title:'Office Building Hybrid work holograms',
+    demoId:'H-4PFjg5sAQ',
+    isVideo:true,           
+    info:"14de animatie project in Blender. Geometry nodes, shader editor, mixamo animaties, modelleren, procedural textures, grease pencil, lighting, graph editor, Shakyify camera ",
+    tech:['Blender']
+},
 ]
