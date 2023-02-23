@@ -104,4 +104,18 @@ export const artProjectData = [
     info:"14de animatie project in Blender. Geometry nodes, shader editor, mixamo animaties, modelleren, procedural textures, grease pencil, lighting, graph editor, Shakyify camera ",
     tech:['Blender']
 },
+{
+    title:'Fireworks Happy New year',
+    demoId:'HV5cYnHVXBE',
+    isVideo:true,           
+    info:"Blender animatie voor nieuw jaar. Particle system, rigging.",
+    tech:['Blender']
+},
+{
+    title:'Blender Greasepencil cake',
+    demoId:'qBHXgUbawfw ',
+    isVideo:true,           
+    info:"Grease Pencil birthday cake.",
+    tech:['Blender']
+},
 ]
