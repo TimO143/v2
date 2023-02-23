@@ -113,7 +113,7 @@ export const artProjectData = [
 },
 {
     title:'Blender Greasepencil cake',
-    demoId:'qBHXgUbawfw ',
+    demoId:'qBHXgUbawfw',
     isVideo:true,           
     info:"Grease Pencil birthday cake.",
     tech:['Blender']
