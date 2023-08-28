@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/v2/static/css/main.27de43ed.css",
-    "main.js": "/v2/static/js/main.b26a5cbf.js",
+    "main.js": "/v2/static/js/main.0b442176.js",
     "static/media/RubiksCube.gif": "/v2/static/media/RubiksCube.9f90221c2039e6526c38.gif",
     "static/media/BedroomEvee.jpg": "/v2/static/media/BedroomEvee.13e5cee6102874057e03.jpg",
     "static/media/BedroomCycles.jpg": "/v2/static/media/BedroomCycles.d05387171cba4b052014.jpg",
     "static/media/House.jpg": "/v2/static/media/House.c6ce9a0759c05570a536.jpg",
     "static/media/hero.jpg": "/v2/static/media/hero.955b1148f4ed44e60428.jpg",
     "static/media/RenderedChessBoard.jpg": "/v2/static/media/RenderedChessBoard.f4b4b28df7ae0be2a118.jpg",
-    "static/media/resume.pdf": "/v2/static/media/resume.b2f40943fdbfdaa4be9c.pdf",
+    "static/media/resume.pdf": "/v2/static/media/resume.6380243c65c042184315.pdf",
     "index.html": "/v2/index.html",
     "main.27de43ed.css.map": "/v2/static/css/main.27de43ed.css.map",
-    "main.b26a5cbf.js.map": "/v2/static/js/main.b26a5cbf.js.map"
+    "main.0b442176.js.map": "/v2/static/js/main.0b442176.js.map"
   },
   "entrypoints": [
     "static/css/main.27de43ed.css",
-    "static/js/main.b26a5cbf.js"
+    "static/js/main.0b442176.js"
   ]
 }
